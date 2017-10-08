@@ -1,0 +1,139 @@
+body {
+	background: #efefef url(images/oldMoon.jpg); margin: 0; padding: 0; height: auto;
+	font: 12pt Segoe UI;
+     }
+
+/*Ñòðóêòóðà ñàéòà*/
+div.mid{width: 1000px; margin: 0 auto;}
+div.header{background: #101417;}
+
+.tableinfo td
+{	
+	width: auto;
+	padding-bottom: 10px;
+	padding-right: 10px;
+	   border:none;
+	   color: #161231;
+}
+.tableinfo{
+		font-size: 22px;
+}
+.tableinfo td a
+{		 
+	text-decoration: none;
+	color: #161231;
+}
+
+h2{
+	margin-top: 3px;
+	color: #100085;
+	text-align: left;
+	font-size: 25px;
+}
+h1{
+	margin-bottom: 0px;
+}
+
+.bottomline{
+ background: linear-gradient(to right, blue, black);
+     }
+.bottomline ul
+{
+	color: #D7C309;
+	    list-style: none;
+	margin-bottom: 0px;
+	margin-left: 50%;
+}
+
+.topbutton {
+	text-decoration: none;
+	width:40px;
+	border:2px solid #ccc;
+	background:#100085;
+	text-align:center;
+	padding:10px;
+	position:fixed;
+	bottom:30px;
+	right:15px;
+	cursor:pointer;
+	color:#999999;
+	font-family:verdana;
+	font-size:20px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-khtml-border-radius: 5px;
+   }
+
+
+	
+.container{
+	background: linear-gradient(to right, black, blue);
+	margin: 5px auto;
+	width: 980px;
+	min-height: 900px;
+	border: 4px double #000000;
+}
+
+.navigation{
+	background: linear-gradient(to right, black, blue);
+	height: 43px;
+}
+.navigation {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	border-top: 3px double #0D0740;
+	border-bottom: 3px double #0D0740;
+	box-shadow:  0px -2px 3px -1px rgba(0, 0, 0, 1);
+	height: 40px;
+}
+.navigation a{
+	padding: 40px;
+	text-transform: uppercase;
+	font-weight: 600;
+}
+.navigation li {
+	float: left;
+	background: #040D5D;
+	height: 40px;
+}
+.navigation li:hover {
+	background: #08102B;
+}
+.navigation li a { /**/
+	display: block;
+	padding: 0 20px;
+	text-decoration: none;
+	line-height: 35px;
+	color: #D4B616;
+}
+.navigation ul {
+	display: none;
+	position: absolute;
+	list-style: none;
+	padding: 0;
+}
+.navigation ul li {
+	float: none;
+}
+.navigation li:hover > ul {
+	display: block;
+	background: #051033;
+	border: 3px double #0D0740;
+	border-top: 0;
+}
+.navigation li li a:hover {
+  background: #051033);
+}
+
+.footer {
+	background: linear-gradient(to top, #0D0740, #232230);
+	height: 30px;
+	color:#C7BB0A;
+	
+}
+.footer{
+	font-size: 16px;
+	text-align: center;
+}
